@@ -1,0 +1,46 @@
+server:
+  port: 9999
+
+#spring:
+#<<<<<<< HEAD
+#=======
+#  profiles:
+#    active: prod
+#
+#---
+spring:
+  datasource:
+    url: database url
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: clientid
+            client-secret: secret
+#
+#  sql:
+#    init:
+#      mode: always
+#
+#<<<<<<< HEAD
+    #
+#spring:
+#  profiles: prod
+#  datasource:
+#    url: jdbc:mysql://containers-us-west-104.railway.app:7111/railway
+#    username: root
+#    password: 9c06cm5F66TGEqrfgnQI
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#=======
+#---
+#spring:
+#  datasource:
+#    url: jdbc:mysql://containers-us-west-104.railway.app:7111/railway
+#    username: root
+#    password: 9c06cm5F66TGEqrfgnQI
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#>>>>>>> d6ebeda7bfad233649ca72791da96b0d29a76738
